@@ -10,7 +10,10 @@
     flex-direction: column;
     padding-bottom: 1rem;
   }
-  .latest_posts div {
+  header nav ul {
+    margin-right: 0rem !important;
+  }
+  .latest_posts section {
     flex-wrap: wrap;
   }
 }
@@ -24,9 +27,7 @@ body {
 }
 
 header {
-  margin-top: 0.7rem;
-  margin-left: 0.7rem;
-  margin-right: 0.7rem;
+  margin: 1rem;
   height: fit-content;
   background: rgb(0, 163, 0);
   background: linear-gradient(90deg, rgb(0, 163, 0) 0%, rgb(0, 128, 0) 57%, rgb(0, 65, 0) 100%);
@@ -40,7 +41,7 @@ header {
 header nav ul {
   list-style-type: none;
   display: flex;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
   gap: 1.5rem;
 }
 header nav ul li a {
@@ -50,12 +51,11 @@ header nav ul li a:hover {
   text-decoration: underline;
 }
 header img {
-  padding: 0.7rem 30px 0.7rem 15px;
-  margin: 0.7rem;
+  margin: 1.5rem;
   width: 10rem;
 }
 
-main {
+.main_container {
   margin-left: auto;
   margin-right: auto;
   padding-left: 2rem;
@@ -110,20 +110,21 @@ main {
 
 .latest_posts {
   margin-top: 4rem;
+  padding-bottom: 35vh;
 }
 .latest_posts h2 {
   color: white;
   border-bottom: 1px solid rgb(0, 128, 0);
 }
-.latest_posts div {
+.latest_posts section {
   display: flex;
   gap: 1rem;
 }
-.latest_posts div article {
-  margin-top: 2vh;
+.latest_posts section article {
+  margin-top: 1rem;
   justify-content: space-between;
 }
-.latest_posts div article img {
+.latest_posts section article img {
   width: 100%;
 }
 .latest_posts p {
@@ -155,13 +156,12 @@ form {
 }
 
 footer {
-  margin-top: 60vh;
   text-align: center;
   background-color: gray;
-  height: 10vh;
+  height: 4rem;
 }
 footer p {
-  padding-top: 4vh;
+  padding-top: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
