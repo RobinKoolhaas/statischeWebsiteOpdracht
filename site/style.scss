@@ -1,0 +1,197 @@
+/* https://stackoverflow.com/questions/43443802/place-background-behind-header */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+//of 38rem
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        padding-bottom: 1rem;
+    }
+
+    .latest_posts {
+        ul {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #131516;
+}
+
+header {
+    margin-top: 0.7rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    height: fit-content;
+    background: rgb(0, 163, 0);
+    background: linear-gradient(90deg, rgb(0, 163, 0) 0%, rgba(0, 128, 0, 1) 57%, rgba(0, 65, 0, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    font-weight: 100;
+
+    nav {
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            margin-right: 1rem;
+            gap: 1.5rem;
+
+            li {
+                a {
+                    color: white;
+                }
+
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    img {
+        padding: 0.7rem 30px 0.7rem 15px;
+        margin: 0.7rem;
+        width: 10rem;
+    }
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 70rem;
+}
+
+.post {
+    color: white;
+    margin-top: 5rem;
+
+    h2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    h3 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: 2rem;
+    }
+
+    .hero {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    p {
+        margin-top: 1.2rem;
+        font-size: 17px;
+        line-height: 26px;
+        letter-spacing: 0px;
+    }
+
+    figure {
+        margin-top: 1.2rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+.textvak1 {
+    margin-top: 16rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+
+    h2 {
+        border-bottom: 1px solid black;
+    }
+
+    p {
+        font-size: clamp(0.5rem, 2.5vw, 1rem);
+        margin-top: 0.4rem;
+        color: black;
+    }
+}
+
+.latest_posts {
+    margin-top: 14rem;
+
+    h2 {
+        color: white;
+        border-bottom: 1px solid rgb(0, 128, 0);
+    }
+
+    ul {
+        margin-top: 2vh;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+
+        li {
+            margin: 0.5rem;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    p {
+        font-size: clamp(0.5rem, 2.5vw, 1rem);
+        margin-top: 0.5rem;
+    }
+}
+
+form {
+    display: grid;
+    gap: 2rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+
+    a {
+        margin-top: 3rem;
+        padding: 1rem;
+        width: 6rem;
+        text-align: center;
+        background: rgb(0, 163, 0);
+        background: linear-gradient(90deg, rgba(0, 163, 0) 0%, rgba(0, 128, 0, 1) 57%, rgba(0, 65, 0, 1) 100%);
+        border-radius: 0.25rem;
+        transition: 0.3s;
+    }
+
+    a:hover {
+        opacity: 0.8;
+    }
+}
+
+footer {
+    margin-top: 60vh;
+    text-align: center;
+    background-color: gray;
+    height: 10vh;
+
+
+    p {
+        padding-top: 4vh;
+    }
+}
