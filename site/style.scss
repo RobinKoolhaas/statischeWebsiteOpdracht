@@ -14,7 +14,7 @@
     }
 
     .latest_posts {
-        ul {
+        div {
             flex-wrap: wrap;
         }
     }
@@ -114,7 +114,7 @@ main {
 }
 
 .textvak1 {
-    margin-top: 16rem;
+    margin-top: 4rem;
     padding: 1rem;
     border-radius: 1rem;
     background-color: white;
@@ -131,27 +131,27 @@ main {
 }
 
 .latest_posts {
-    margin-top: 14rem;
+    margin-top: 4rem;
 
     h2 {
         color: white;
         border-bottom: 1px solid rgb(0, 128, 0);
     }
 
-    ul {
-        margin-top: 2vh;
-        list-style-type: none;
+    div {
         display: flex;
-        justify-content: space-evenly;
+        gap: 1rem;
 
-        li {
-            margin: 0.5rem;
+        article {
+            margin-top: 2vh;
+            justify-content: space-between;
 
             img {
                 width: 100%;
             }
         }
     }
+
 
     p {
         font-size: clamp(0.5rem, 2.5vw, 1rem);

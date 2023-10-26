@@ -10,7 +10,7 @@
     flex-direction: column;
     padding-bottom: 1rem;
   }
-  .latest_posts ul {
+  .latest_posts div {
     flex-wrap: wrap;
   }
 }
@@ -94,7 +94,7 @@ main {
 }
 
 .textvak1 {
-  margin-top: 16rem;
+  margin-top: 4rem;
   padding: 1rem;
   border-radius: 1rem;
   background-color: white;
@@ -109,22 +109,21 @@ main {
 }
 
 .latest_posts {
-  margin-top: 14rem;
+  margin-top: 4rem;
 }
 .latest_posts h2 {
   color: white;
   border-bottom: 1px solid rgb(0, 128, 0);
 }
-.latest_posts ul {
-  margin-top: 2vh;
-  list-style-type: none;
+.latest_posts div {
   display: flex;
-  justify-content: space-evenly;
+  gap: 1rem;
 }
-.latest_posts ul li {
-  margin: 0.5rem;
+.latest_posts div article {
+  margin-top: 2vh;
+  justify-content: space-between;
 }
-.latest_posts ul li img {
+.latest_posts div article img {
   width: 100%;
 }
 .latest_posts p {
