@@ -134,6 +134,30 @@ header img {
   margin-top: 0.5rem;
 }
 
+.posts_container {
+  margin-bottom: 10vh;
+}
+.posts_container h2 {
+  color: white;
+  border-bottom: 1px solid green;
+}
+.posts_container .posts_grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.posts_container .posts_grid img {
+  width: 100%;
+}
+.posts_container .posts_grid h3 {
+  font-size: clamp(0.2rem, 2.5vw, 1rem);
+}
+.posts_container .posts_grid p {
+  font-size: clamp(0.1rem, 2.5vw, 1rem);
+  margin-top: 0.5rem;
+}
+
 .contact_form {
   margin-left: auto;
   margin-right: auto;
@@ -141,7 +165,7 @@ header img {
   padding-right: 5rem;
   max-width: 50rem;
   margin-top: 5rem;
-  margin-bottom: 8rem;
+  margin-bottom: 38vh;
 }
 .contact_form h2 {
   color: white;
@@ -208,6 +232,11 @@ header img {
 }
 .btn a:hover {
   opacity: 0.8;
+}
+
+.header_link {
+  color: green;
+  margin-left: 0.3rem;
 }
 
 footer {
