@@ -1,4 +1,3 @@
-/* https://stackoverflow.com/questions/43443802/place-background-behind-header */
 * {
   padding: 0;
   margin: 0;
@@ -19,7 +18,7 @@
 }
 a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 
 body {
@@ -45,7 +44,7 @@ header nav ul {
   gap: 1.5rem;
 }
 header nav ul li a {
-  color: white;
+  color: #ffffff;
 }
 header nav ul li a:hover {
   text-decoration: underline;
@@ -68,7 +67,7 @@ main {
 }
 
 .post {
-  color: white;
+  color: #ffffff;
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
@@ -104,7 +103,7 @@ main {
 .textvak1 article {
   padding: 1rem;
   border-radius: 1rem;
-  background-color: white;
+  background-color: #ffffff;
 }
 .textvak1 h2 {
   border-bottom: 1px solid black;
@@ -112,7 +111,7 @@ main {
 .textvak1 p {
   font-size: clamp(0.7rem, 2.5vw, 0.9rem);
   margin-top: 0.4rem;
-  color: black;
+  color: #000000;
 }
 
 .latest_posts {
@@ -120,7 +119,7 @@ main {
   padding-bottom: 35vh;
 }
 .latest_posts h2 {
-  color: white;
+  color: #ffffff;
   border-bottom: 1px solid rgb(0, 128, 0);
 }
 .latest_posts section {
@@ -135,8 +134,11 @@ main {
 .latest_posts section article img {
   width: 100%;
 }
+.latest_posts section article h3 {
+  font-size: clamp(0.7rem, 2vw, 1.2rem);
+}
 .latest_posts section article p {
-  font-size: clamp(0.6rem, 2.5vw, 0.8rem);
+  font-size: clamp(0.7rem, 1vw, 0.8rem);
   margin-top: 0.5rem;
 }
 
@@ -145,8 +147,8 @@ main {
   margin-bottom: 5rem;
 }
 .posts_container h2 {
-  color: white;
-  border-bottom: 1px solid green;
+  color: #ffffff;
+  border-bottom: 1px solid #008000;
 }
 .posts_container .posts_grid {
   margin-top: 1rem;
@@ -158,10 +160,10 @@ main {
   width: 100%;
 }
 .posts_container .posts_grid h3 {
-  font-size: clamp(0.5rem, 2.5vw, 1rem);
+  font-size: clamp(0.7rem, 2vw, 1.2rem);
 }
 .posts_container .posts_grid p {
-  font-size: clamp(0.1rem, 2.5vw, 0.75rem);
+  font-size: clamp(0.7rem, 1vw, 0.8rem);
   margin-top: 0.5rem;
 }
 
@@ -175,12 +177,13 @@ main {
   margin-bottom: 38vh;
 }
 .contact_form h2 {
-  color: white;
+  color: #ffffff;
   margin-bottom: 2rem;
   border-bottom: 1px solid rgb(0, 180, 0);
+  font-size: 40px;
 }
 .contact_form .contact_input {
-  color: white;
+  color: #ffffff;
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
@@ -207,7 +210,7 @@ main {
   border-radius: 5px;
   border: 0;
   cursor: pointer;
-  color: white;
+  color: #ffffff;
   font-size: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -220,7 +223,7 @@ main {
 }
 .contact_form p {
   margin-top: 5rem;
-  color: white;
+  color: #ffffff;
 }
 
 .btn {
@@ -242,14 +245,14 @@ main {
 }
 
 .header_link {
-  color: green;
+  color: #008000;
   margin-left: 0.3rem;
 }
 
 footer {
-  padding: 2rem;
+  padding: 0.5rem;
   text-align: center;
-  background-color: gray;
+  background-color: #808080;
 }
 
 /*# sourceMappingURL=style.css.map */
