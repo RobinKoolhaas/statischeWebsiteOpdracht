@@ -15,6 +15,9 @@
   .latest_posts section {
     flex-wrap: wrap;
   }
+  .posts_grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
 }
 a {
   text-decoration: none;
@@ -109,14 +112,14 @@ main {
   border-bottom: 1px solid black;
 }
 .textvak1 p {
-  font-size: clamp(0.7rem, 2.5vw, 0.9rem);
+  font-size: clamp(0.8rem, 1vw, 1rem);
   margin-top: 0.4rem;
   color: #000000;
 }
 
 .latest_posts {
   margin-top: 4rem;
-  padding-bottom: 35vh;
+  padding-bottom: 10vh;
 }
 .latest_posts h2 {
   color: #ffffff;
@@ -153,7 +156,7 @@ main {
 .posts_container .posts_grid {
   margin-top: 1rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
 .posts_container .posts_grid img {
