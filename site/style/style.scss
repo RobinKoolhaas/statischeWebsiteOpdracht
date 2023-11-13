@@ -123,6 +123,37 @@ main {
         display: flex;
         justify-content: space-evenly;
     }
+
+    .centered {
+        text-align: center;
+    }
+}
+
+.over_ons {
+    color: #ffffff;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+    h2 {
+        font-size: 60px;
+        line-height: 60px;
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 30px;
+        // margin-bottom: 0.3rem;
+        font-weight: 900;
+    }
+
+    p {
+        // margin-top: 1.2rem;
+        font-size: 17px;
+        line-height: 26px;
+        letter-spacing: 0px;
+        margin-bottom: 1.2rem;
+    }
 }
 
 .textvak1 {
