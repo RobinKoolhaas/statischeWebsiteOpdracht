@@ -13,6 +13,7 @@ $highlight-green: #008000;
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    min-width: 0px;
 }
 
 a {
@@ -116,8 +117,10 @@ p {
         }
     }
 
-    .posts_grid {
-        grid-template-columns: repeat(2, 1fr) !important;
+    #posts_container {
+        section {
+            grid-template-columns: 1fr !important;
+        }
     }
 }
 //End Media Query

@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  min-width: 0px;
 }
 
 a {
@@ -92,12 +93,13 @@ p {
   #latest_posts section {
     flex-wrap: wrap;
   }
-  .posts_grid {
-    grid-template-columns: repeat(2, 1fr) !important;
+  #posts_container section {
+    grid-template-columns: 1fr !important;
   }
 }
 header {
   margin: 1rem;
+  height: -moz-fit-content;
   height: fit-content;
   background: #00a300;
   background: linear-gradient(90deg, #00a300 0%, #008000 57%, #004100 100%);
@@ -266,6 +268,4 @@ footer {
   padding: 0.5rem;
   text-align: center;
   background-color: #808080;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
